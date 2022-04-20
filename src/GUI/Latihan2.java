@@ -35,7 +35,9 @@ public class Latihan2 extends javax.swing.JFrame {
         ButtonClear21552011440 = new javax.swing.JButton();
         ButtonExit21552011440 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
+
+        jPanel1.setBackground(new java.awt.Color(0, 204, 204));
 
         LabelJudul21552011440.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         LabelJudul21552011440.setText("jComboBox Menggunakan method getSelectedIndex()");
@@ -139,6 +141,7 @@ public class Latihan2 extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void ButtonClear21552011440ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonClear21552011440ActionPerformed

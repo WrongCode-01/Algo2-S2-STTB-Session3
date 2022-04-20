@@ -38,7 +38,9 @@ public class Latihan4 extends javax.swing.JFrame {
         ButtonClear21552011440 = new javax.swing.JButton();
         ButtonExit21552011440 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
+
+        jPanel1.setBackground(new java.awt.Color(0, 204, 204));
 
         ListAsal21552011440.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { "SOLO", "PADANG", "BUKIT TINGGI", "JAKARTA", "BANDUNG", "PLANET BEKASI", "BOGOR" };
